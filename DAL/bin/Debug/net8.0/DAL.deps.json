@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v8.0": {
       "DAL/1.0.0": {
         "dependencies": {
+          "Microsoft.EntityFrameworkCore.Design": "9.0.0-preview.6.24327.4",
           "Microsoft.EntityFrameworkCore.SqlServer": "9.0.0-preview.6.24327.4",
           "Microsoft.EntityFrameworkCore.Tools": "9.0.0-preview.6.24327.4"
         },
