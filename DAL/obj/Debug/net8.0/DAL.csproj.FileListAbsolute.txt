@@ -21,3 +21,9 @@ C:\Users\The user\Documents\מסלול\פרויקט עצמאי\server\DAL\obj\De
 C:\Users\The user\Documents\מסלול\פרויקט עצמאי\server\DAL\obj\Debug\net8.0\DAL.dll
 C:\Users\The user\Documents\מסלול\פרויקט עצמאי\server\DAL\obj\Debug\net8.0\refint\DAL.dll
 C:\Users\The user\Documents\מסלול\פרויקט עצמאי\server\DAL\obj\Debug\net8.0\DAL.pdb
+C:\Users\The user\Documents\מסלול\פרויקט עצמאי\server\DAL\bin\Debug\net8.0\DAL.deps.json
+C:\Users\The user\Documents\מסלול\פרויקט עצמאי\server\DAL\bin\Debug\net8.0\DAL.runtimeconfig.json
+C:\Users\The user\Documents\מסלול\פרויקט עצמאי\server\DAL\bin\Debug\net8.0\DAL.dll
+C:\Users\The user\Documents\מסלול\פרויקט עצמאי\server\DAL\bin\Debug\net8.0\DAL.pdb
+C:\Users\The user\Documents\מסלול\פרויקט עצמאי\server\DAL\obj\Debug\net8.0\DAL.genruntimeconfig.cache
+C:\Users\The user\Documents\מסלול\פרויקט עצמאי\server\DAL\obj\Debug\net8.0\ref\DAL.dll
