@@ -12,3 +12,12 @@ D:\Users\The user\Desktop\npm start\NpmStart\DAL\obj\Debug\net8.0\refint\DAL.dll
 D:\Users\The user\Desktop\npm start\NpmStart\DAL\obj\Debug\net8.0\DAL.pdb
 D:\Users\The user\Desktop\npm start\NpmStart\DAL\obj\Debug\net8.0\DAL.genruntimeconfig.cache
 D:\Users\The user\Desktop\npm start\NpmStart\DAL\obj\Debug\net8.0\ref\DAL.dll
+C:\Users\The user\Documents\מסלול\פרויקט עצמאי\server\DAL\obj\Debug\net8.0\DAL.csproj.AssemblyReference.cache
+C:\Users\The user\Documents\מסלול\פרויקט עצמאי\server\DAL\obj\Debug\net8.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\The user\Documents\מסלול\פרויקט עצמאי\server\DAL\obj\Debug\net8.0\DAL.AssemblyInfoInputs.cache
+C:\Users\The user\Documents\מסלול\פרויקט עצמאי\server\DAL\obj\Debug\net8.0\DAL.AssemblyInfo.cs
+C:\Users\The user\Documents\מסלול\פרויקט עצמאי\server\DAL\obj\Debug\net8.0\DAL.csproj.CoreCompileInputs.cache
+C:\Users\The user\Documents\מסלול\פרויקט עצמאי\server\DAL\obj\Debug\net8.0\DAL.sourcelink.json
+C:\Users\The user\Documents\מסלול\פרויקט עצמאי\server\DAL\obj\Debug\net8.0\DAL.dll
+C:\Users\The user\Documents\מסלול\פרויקט עצמאי\server\DAL\obj\Debug\net8.0\refint\DAL.dll
+C:\Users\The user\Documents\מסלול\פרויקט עצמאי\server\DAL\obj\Debug\net8.0\DAL.pdb

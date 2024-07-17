@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1XbroQs4De6kixFSKizq8fdTLWz9HR0rfwrzjLIpFeDBL7bF4ERuHKDDnAklObCS6O8+n02magwBGbNotmBo4g==",
+  "dgSpecHash": "lLoxvzy3a+hQsznujKb1SHKqzXGf834bEOlNgTiHz0ffDFFTNjGJeJEtIFpw7Q/uxYSQLzYNTKVwr4Lh09P1cQ==",
   "success": true,
-  "projectFilePath": "D:\\Users\\The user\\Desktop\\npm start\\NpmStart\\BLL\\BLL.csproj",
+  "projectFilePath": "C:\\Users\\The user\\Documents\\מסלול\\פרויקט עצמאי\\server\\BLL\\BLL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\The user\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\The user\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

@@ -4713,11 +4713,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Users\\The user\\Desktop\\npm start\\NpmStart\\DAL\\DAL.csproj",
+      "projectUniqueName": "C:\\Users\\The user\\Documents\\מסלול\\פרויקט עצמאי\\server\\DAL\\DAL.csproj",
       "projectName": "DAL",
-      "projectPath": "D:\\Users\\The user\\Desktop\\npm start\\NpmStart\\DAL\\DAL.csproj",
+      "projectPath": "C:\\Users\\The user\\Documents\\מסלול\\פרויקט עצמאי\\server\\DAL\\DAL.csproj",
       "packagesPath": "C:\\Users\\The user\\.nuget\\packages\\",
-      "outputPath": "D:\\Users\\The user\\Desktop\\npm start\\NpmStart\\DAL\\obj\\",
+      "outputPath": "C:\\Users\\The user\\Documents\\מסלול\\פרויקט עצמאי\\server\\DAL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
