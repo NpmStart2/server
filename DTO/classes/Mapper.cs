@@ -12,7 +12,21 @@ namespace DTO.classes
     {
         public Mapper()
         {
-            CreateMap<Comment,CommentDto>().ReverseMap();
+            CreateMap<DAL.Models.Comment, CommentDto>()
+                          .ForMember(dest => dest.User, opt =>
+                               opt.MapFrom(src => src.User.Username))
+                          .ForMember(dest => dest.Discussion, opt =>
+                               opt.MapFrom(src => src.Discussion.Title))
+                          .ReverseMap();
+
+            CreateMap<DAL.Models.Discussion, DiscussionDto>()
+                .ForMember(dest => dest.User, opt =>
+                     opt.MapFrom(src => src.User.Username))
+                .ReverseMap();
+
+            CreateMap<DAL.Models.Subject, SubjectDto>().ReverseMap();
+
+            CreateMap<DAL.Models.User, UserDto>().ReverseMap();
         }
     }
 }
