@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using DAL.Interfaces;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,7 +9,7 @@ using System.Xml;
 
 namespace DAL.Models
 {
-    public class MyDbContext : DbContext
+    public class MyDbContext : DbContext, IContext
     {
         public DbSet<Comment> Comments { get; set; }
         public DbSet<Discussion> Discussions { get; set; }
@@ -17,7 +18,7 @@ namespace DAL.Models
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server=DESKTOP-E0FAPSB\\SQLEXPRESS;Database=MyDatabase;Trusted_Connection=True; TrustServerCertificate=True");
+            optionsBuilder.UseSqlServer("Server=Dvora-Shechter\\SQLEXPRESS;Database=npm;Trusted_Connection=True; TrustServerCertificate=True");
         }
     }
 }
