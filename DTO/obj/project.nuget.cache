@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GeuZR8YDtfa4pDi3QF2SYiRnRed2Qozlx6YZerhGPdQkQ0m9zc7JwBvQZJMbafDvTiszPOP5aEvjbpf4C9wATQ==",
+  "dgSpecHash": "6HQWccG5Go8=",
   "success": true,
-  "projectFilePath": "C:\\Users\\The user\\Documents\\מסלול\\פרויקט עצמאי\\server\\DTO\\DTO.csproj",
+  "projectFilePath": "D:\\Users\\The user\\Desktop\\npm start\\server\\DTO\\DTO.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\The user\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\The user\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

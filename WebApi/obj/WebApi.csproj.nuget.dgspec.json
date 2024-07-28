@@ -60,10 +60,6 @@
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[12.0.1, )"
-            },
-            "MySqlConnector": {
-              "target": "Package",
-              "version": "[2.3.7, )"
             }
           },
           "imports": [
@@ -147,10 +143,6 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[9.0.0-preview.6.24327.4, )"
-            },
-            "MySqlConnector": {
-              "target": "Package",
-              "version": "[2.3.7, )"
             }
           },
           "imports": [
@@ -226,10 +218,6 @@
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[12.0.1, )"
-            },
-            "MySqlConnector": {
-              "target": "Package",
-              "version": "[2.3.7, )"
             }
           },
           "imports": [
@@ -309,10 +297,6 @@
             "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
               "target": "Package",
               "version": "[1.19.6, )"
-            },
-            "MySqlConnector": {
-              "target": "Package",
-              "version": "[2.3.7, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
