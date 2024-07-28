@@ -12,9 +12,6 @@ namespace DTO.classes
     {
         public Mapper()
         {
-<<<<<<< HEAD
-            CreateMap<Comment,CommentDto>().ReverseMap();
-=======
             CreateMap<DAL.Models.Comment, CommentDto>()
                           .ForMember(dest => dest.User, opt =>
                                opt.MapFrom(src => src.User.Username))
@@ -30,7 +27,6 @@ namespace DTO.classes
             CreateMap<DAL.Models.Subject, SubjectDto>().ReverseMap();
 
             CreateMap<DAL.Models.User, UserDto>().ReverseMap();
->>>>>>> origin/elishevaBranch
         }
     }
 }
