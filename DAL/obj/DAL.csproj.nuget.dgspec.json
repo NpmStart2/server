@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Users\\The user\\Desktop\\npm start\\server\\DAL\\DAL.csproj": {}
+    "C:\\Users\\The user\\Documents\\מסלול\\פרויקט עצמאי\\server\\DAL\\DAL.csproj": {}
   },
   "projects": {
-    "D:\\Users\\The user\\Desktop\\npm start\\server\\DAL\\DAL.csproj": {
+    "C:\\Users\\The user\\Documents\\מסלול\\פרויקט עצמאי\\server\\DAL\\DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\The user\\Desktop\\npm start\\server\\DAL\\DAL.csproj",
+        "projectUniqueName": "C:\\Users\\The user\\Documents\\מסלול\\פרויקט עצמאי\\server\\DAL\\DAL.csproj",
         "projectName": "DAL",
-        "projectPath": "D:\\Users\\The user\\Desktop\\npm start\\server\\DAL\\DAL.csproj",
+        "projectPath": "C:\\Users\\The user\\Documents\\מסלול\\פרויקט עצמאי\\server\\DAL\\DAL.csproj",
         "packagesPath": "C:\\Users\\The user\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\The user\\Desktop\\npm start\\server\\DAL\\obj\\",
+        "outputPath": "C:\\Users\\The user\\Documents\\מסלול\\פרויקט עצמאי\\server\\DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -65,10 +65,6 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[9.0.0-preview.6.24327.4, )"
-            },
-            "MySqlConnector": {
-              "target": "Package",
-              "version": "[2.3.7, )"
             }
           },
           "imports": [
@@ -87,7 +83,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

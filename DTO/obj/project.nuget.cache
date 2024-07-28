@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DOJ1/koWg2w=",
+  "dgSpecHash": "GeuZR8YDtfa4pDi3QF2SYiRnRed2Qozlx6YZerhGPdQkQ0m9zc7JwBvQZJMbafDvTiszPOP5aEvjbpf4C9wATQ==",
   "success": true,
-  "projectFilePath": "D:\\Users\\The user\\Desktop\\npm start\\server\\DTO\\DTO.csproj",
+  "projectFilePath": "C:\\Users\\The user\\Documents\\מסלול\\פרויקט עצמאי\\server\\DTO\\DTO.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\The user\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\The user\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
@@ -37,7 +37,6 @@
     "C:\\Users\\The user\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\The user\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\The user\\.nuget\\packages\\microsoft.sqlserver.server\\1.0.0\\microsoft.sqlserver.server.1.0.0.nupkg.sha512",
-    "C:\\Users\\The user\\.nuget\\packages\\mysqlconnector\\2.3.7\\mysqlconnector.2.3.7.nupkg.sha512",
     "C:\\Users\\The user\\.nuget\\packages\\system.clientmodel\\1.0.0\\system.clientmodel.1.0.0.nupkg.sha512",
     "C:\\Users\\The user\\.nuget\\packages\\system.configuration.configurationmanager\\8.0.0\\system.configuration.configurationmanager.8.0.0.nupkg.sha512",
     "C:\\Users\\The user\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.1\\system.diagnostics.diagnosticsource.6.0.1.nupkg.sha512",

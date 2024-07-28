@@ -591,22 +591,6 @@
           }
         }
       },
-      "MySqlConnector/2.3.7": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Extensions.Logging.Abstractions": "7.0.1"
-        },
-        "compile": {
-          "lib/net8.0/MySqlConnector.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net8.0/MySqlConnector.dll": {
-            "related": ".xml"
-          }
-        }
-      },
       "System.ClientModel/1.0.0": {
         "type": "package",
         "dependencies": {
@@ -879,8 +863,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.SqlServer": "9.0.0-preview.6.24327.4",
-          "MySqlConnector": "2.3.7"
+          "Microsoft.EntityFrameworkCore.SqlServer": "9.0.0-preview.6.24327.4"
         },
         "compile": {
           "bin/placeholder/DAL.dll": {}
@@ -894,8 +877,7 @@
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.1",
-          "DAL": "1.0.0",
-          "MySqlConnector": "2.3.7"
+          "DAL": "1.0.0"
         },
         "compile": {
           "bin/placeholder/DTO.dll": {}
@@ -1801,35 +1783,6 @@
         "microsoft.sqlserver.server.nuspec"
       ]
     },
-    "MySqlConnector/2.3.7": {
-      "sha512": "YiVOxvJ+vAYW8NT9gHv8RxKCDFCSXAObF3z0Ou/8WRv8Lsn2QsxaPW5xEwPE+xCcAq6BGkrI8GTOC09Xg09blQ==",
-      "type": "package",
-      "path": "mysqlconnector/2.3.7",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "README.md",
-        "lib/net462/MySqlConnector.dll",
-        "lib/net462/MySqlConnector.xml",
-        "lib/net471/MySqlConnector.dll",
-        "lib/net471/MySqlConnector.xml",
-        "lib/net48/MySqlConnector.dll",
-        "lib/net48/MySqlConnector.xml",
-        "lib/net6.0/MySqlConnector.dll",
-        "lib/net6.0/MySqlConnector.xml",
-        "lib/net7.0/MySqlConnector.dll",
-        "lib/net7.0/MySqlConnector.xml",
-        "lib/net8.0/MySqlConnector.dll",
-        "lib/net8.0/MySqlConnector.xml",
-        "lib/netstandard2.0/MySqlConnector.dll",
-        "lib/netstandard2.0/MySqlConnector.xml",
-        "lib/netstandard2.1/MySqlConnector.dll",
-        "lib/netstandard2.1/MySqlConnector.xml",
-        "logo.png",
-        "mysqlconnector.2.3.7.nupkg.sha512",
-        "mysqlconnector.nuspec"
-      ]
-    },
     "System.ClientModel/1.0.0": {
       "sha512": "I3CVkvxeqFYjIVEP59DnjbeoGNfo/+SZrCLpRz2v/g0gpCHaEMPtWSY0s9k/7jR1rAsLNg2z2u1JRB76tPjnIw==",
       "type": "package",
@@ -2474,8 +2427,7 @@
     "net8.0": [
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 12.0.1",
       "DAL >= 1.0.0",
-      "DTO >= 1.0.0",
-      "MySqlConnector >= 2.3.7"
+      "DTO >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -2485,11 +2437,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Users\\The user\\Desktop\\npm start\\server\\BLL\\BLL.csproj",
+      "projectUniqueName": "C:\\Users\\The user\\Documents\\מסלול\\פרויקט עצמאי\\server\\BLL\\BLL.csproj",
       "projectName": "BLL",
-      "projectPath": "D:\\Users\\The user\\Desktop\\npm start\\server\\BLL\\BLL.csproj",
+      "projectPath": "C:\\Users\\The user\\Documents\\מסלול\\פרויקט עצמאי\\server\\BLL\\BLL.csproj",
       "packagesPath": "C:\\Users\\The user\\.nuget\\packages\\",
-      "outputPath": "D:\\Users\\The user\\Desktop\\npm start\\server\\BLL\\obj\\",
+      "outputPath": "C:\\Users\\The user\\Documents\\מסלול\\פרויקט עצמאי\\server\\BLL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2511,11 +2463,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\Users\\The user\\Desktop\\npm start\\server\\DAL\\DAL.csproj": {
-              "projectPath": "D:\\Users\\The user\\Desktop\\npm start\\server\\DAL\\DAL.csproj"
+            "C:\\Users\\The user\\Documents\\מסלול\\פרויקט עצמאי\\server\\DAL\\DAL.csproj": {
+              "projectPath": "C:\\Users\\The user\\Documents\\מסלול\\פרויקט עצמאי\\server\\DAL\\DAL.csproj"
             },
-            "D:\\Users\\The user\\Desktop\\npm start\\server\\DTO\\DTO.csproj": {
-              "projectPath": "D:\\Users\\The user\\Desktop\\npm start\\server\\DTO\\DTO.csproj"
+            "C:\\Users\\The user\\Documents\\מסלול\\פרויקט עצמאי\\server\\DTO\\DTO.csproj": {
+              "projectPath": "C:\\Users\\The user\\Documents\\מסלול\\פרויקט עצמאי\\server\\DTO\\DTO.csproj"
             }
           }
         }
@@ -2538,10 +2490,6 @@
           "AutoMapper.Extensions.Microsoft.DependencyInjection": {
             "target": "Package",
             "version": "[12.0.1, )"
-          },
-          "MySqlConnector": {
-            "target": "Package",
-            "version": "[2.3.7, )"
           }
         },
         "imports": [
@@ -2560,7 +2508,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

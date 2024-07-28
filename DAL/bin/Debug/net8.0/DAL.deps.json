@@ -10,8 +10,7 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Design": "9.0.0-preview.6.24327.4",
           "Microsoft.EntityFrameworkCore.SqlServer": "9.0.0-preview.6.24327.4",
-          "Microsoft.EntityFrameworkCore.Tools": "9.0.0-preview.6.24327.4",
-          "MySqlConnector": "2.3.7"
+          "Microsoft.EntityFrameworkCore.Tools": "9.0.0-preview.6.24327.4"
         },
         "runtime": {
           "DAL.dll": {}
@@ -750,17 +749,6 @@
           }
         }
       },
-      "MySqlConnector/2.3.7": {
-        "dependencies": {
-          "Microsoft.Extensions.Logging.Abstractions": "9.0.0-preview.6.24327.7"
-        },
-        "runtime": {
-          "lib/net8.0/MySqlConnector.dll": {
-            "assemblyVersion": "2.0.0.0",
-            "fileVersion": "2.3.7.0"
-          }
-        }
-      },
       "System.ClientModel/1.0.0": {
         "dependencies": {
           "System.Memory.Data": "1.0.2",
@@ -1338,13 +1326,6 @@
       "sha512": "sha512-VP/+5Djwzv/Ves5kbuzWENNMh7COnXSDVKgAuljvyoX49T/72lXkzzAorpXQNx812lD/MxUqpO8GVyizEO+7OA==",
       "path": "mono.texttemplating/3.0.0-preview-0052-g5d0f76c785",
       "hashPath": "mono.texttemplating.3.0.0-preview-0052-g5d0f76c785.nupkg.sha512"
-    },
-    "MySqlConnector/2.3.7": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-YiVOxvJ+vAYW8NT9gHv8RxKCDFCSXAObF3z0Ou/8WRv8Lsn2QsxaPW5xEwPE+xCcAq6BGkrI8GTOC09Xg09blQ==",
-      "path": "mysqlconnector/2.3.7",
-      "hashPath": "mysqlconnector.2.3.7.nupkg.sha512"
     },
     "System.ClientModel/1.0.0": {
       "type": "package",

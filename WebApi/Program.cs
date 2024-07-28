@@ -49,20 +49,11 @@ builder.Services.AddCors(options =>
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
-//if (app.Environment.IsDevelopment())
-//{
+if (app.Environment.IsDevelopment())
+{
     app.UseSwagger();
     app.UseSwaggerUI();
-//}
-
-app.UseCors(builder =>
-{
-    builder
-    .AllowAnyOrigin()
-    .AllowAnyHeader()
-    .AllowAnyMethod();
-    ;
-});
+}
 
 app.UseCors(builder =>
 {
@@ -78,7 +69,5 @@ app.UseHttpsRedirection();
 app.UseAuthorization();
 
 app.MapControllers();
-
-app.MapGet("/", () => "server is running");
 
 app.Run();
