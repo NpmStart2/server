@@ -4,12 +4,14 @@ using BLL.Services;
 using DAL.Interfaces;
 using DAL.Models;
 using DAL.Repositories;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 //builder.Services.AddScoped<ICommentRepository, CommentRepository>();
 //builder.Services.AddScoped<ICommentService, CommentService>();
+//builder.Services.AddDbContext<MyDbContext>(options => options.UseSqlServer("Server=.;Database=npm;TrustServerCertificate=True;Trusted_Connection=True;"));
 
 
 builder.Services.AddTransient<ICommentRepository, CommentRepository>();

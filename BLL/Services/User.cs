@@ -21,17 +21,23 @@ namespace BLL.Services
         public UserService(IUserRepository UserRepository, IMapper mapper, ILogger<string> logger)
         {
             this.UserRepository = UserRepository;
-            this.mapper = mapper;
             this.logger = logger;
+            var config = new MapperConfiguration(cfg =>
+            {
+                cfg.AddProfile<DTO.classes.Mapper>();
+            });
+            this.mapper = config.CreateMapper();
+            //this.mapper = mapper;
         }
 
         public async Task<UserDto> AddNewUserAsync(UserDto e)
         {
             try
             {
-                var map = mapper.Map<User>(e);
-                var answer=await UserRepository.AddAsync(map);
-                return mapper.Map<UserDto>(answer);
+                var map = mapper.Map<UserDto, User>(e);
+                var answer = await UserRepository.AddAsync(map);
+                UserDto v = mapper.Map<User, UserDto>(answer);
+                return v;
             }
             catch (Exception ex)
             {
@@ -89,9 +95,9 @@ namespace BLL.Services
         {
             try
             {
-                var map= mapper.Map<User>(e);
+                var map= mapper.Map<UserDto, User>(e);
                 var answer= await UserRepository.UpdateAsync(map);
-                return mapper.Map<UserDto>(answer);
+                return mapper.Map<User, UserDto>(answer);
             }
             catch(Exception ex)
             {

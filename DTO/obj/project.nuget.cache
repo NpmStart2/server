@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "GeuZR8YDtfa4pDi3QF2SYiRnRed2Qozlx6YZerhGPdQkQ0m9zc7JwBvQZJMbafDvTiszPOP5aEvjbpf4C9wATQ==",
+  "dgSpecHash": "1NFnDGn0TUs=",
   "success": true,
   "projectFilePath": "C:\\Users\\The user\\Documents\\מסלול\\פרויקט עצמאי\\server\\DTO\\DTO.csproj",
   "expectedPackageFiles": [
@@ -55,5 +55,12 @@
     "C:\\Users\\The user\\.nuget\\packages\\system.text.json\\4.7.2\\system.text.json.4.7.2.nupkg.sha512",
     "C:\\Users\\The user\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1900",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Error occurred while getting package vulnerability data: Unable to load the service index for source https://api.nuget.org/v3/index.json."
+    }
+  ]
 }

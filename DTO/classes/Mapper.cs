@@ -26,7 +26,11 @@ namespace DTO.classes
 
             CreateMap<DAL.Models.Subject, SubjectDto>().ReverseMap();
 
-            CreateMap<DAL.Models.User, UserDto>().ReverseMap();
+            CreateMap<DAL.Models.User, UserDto>();
+
+            CreateMap<UserDto, DAL.Models.User>()
+                .ForMember(dest => dest.Id, opt => opt.Ignore());
+
         }
     }
 }
