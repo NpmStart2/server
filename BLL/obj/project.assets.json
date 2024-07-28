@@ -2486,10 +2486,11 @@
     "version": "1.0.0",
     "restore": {
       "projectUniqueName": "C:\\Users\\The user\\Documents\\מסלול\\פרויקט עצמאי\\server\\BLL\\BLL.csproj",
+      "projectUniqueName": "D:\\Users\\The user\\Desktop\\npm start\\server\\BLL\\BLL.csproj",
       "projectName": "BLL",
       "projectPath": "C:\\Users\\The user\\Documents\\מסלול\\פרויקט עצמאי\\server\\BLL\\BLL.csproj",
       "packagesPath": "C:\\Users\\The user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\The user\\Documents\\מסלול\\פרויקט עצמאי\\server\\BLL\\obj\\",
+      "outputPath": "D:\\Users\\The user\\Desktop\\npm start\\server\\BLL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2513,9 +2514,13 @@
           "projectReferences": {
             "C:\\Users\\The user\\Documents\\מסלול\\פרויקט עצמאי\\server\\DAL\\DAL.csproj": {
               "projectPath": "C:\\Users\\The user\\Documents\\מסלול\\פרויקט עצמאי\\server\\DAL\\DAL.csproj"
+            "D:\\Users\\The user\\Desktop\\npm start\\server\\DAL\\DAL.csproj": {
+              "projectPath": "D:\\Users\\The user\\Desktop\\npm start\\server\\DAL\\DAL.csproj"
             },
             "C:\\Users\\The user\\Documents\\מסלול\\פרויקט עצמאי\\server\\DTO\\DTO.csproj": {
               "projectPath": "C:\\Users\\The user\\Documents\\מסלול\\פרויקט עצמאי\\server\\DTO\\DTO.csproj"
+            "D:\\Users\\The user\\Desktop\\npm start\\server\\DTO\\DTO.csproj": {
+              "projectPath": "D:\\Users\\The user\\Desktop\\npm start\\server\\DTO\\DTO.csproj"
             }
           }
         }
@@ -2563,13 +2568,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file C:\\Users\\The user\\Documents\\מסלול\\פרויקט עצמאי\\server\\BLL\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  }
 }

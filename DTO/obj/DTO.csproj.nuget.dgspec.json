@@ -2,16 +2,21 @@
   "format": 1,
   "restore": {
     "C:\\Users\\The user\\Documents\\מסלול\\פרויקט עצמאי\\server\\DTO\\DTO.csproj": {}
+    "D:\\Users\\The user\\Desktop\\npm start\\server\\DTO\\DTO.csproj": {}
   },
   "projects": {
     "C:\\Users\\The user\\Documents\\מסלול\\פרויקט עצמאי\\server\\DAL\\DAL.csproj": {
+    "D:\\Users\\The user\\Desktop\\npm start\\server\\DAL\\DAL.csproj": {
       "version": "1.0.0",
       "restore": {
         "projectUniqueName": "C:\\Users\\The user\\Documents\\מסלול\\פרויקט עצמאי\\server\\DAL\\DAL.csproj",
+        "projectUniqueName": "D:\\Users\\The user\\Desktop\\npm start\\server\\DAL\\DAL.csproj",
         "projectName": "DAL",
         "projectPath": "C:\\Users\\The user\\Documents\\מסלול\\פרויקט עצמאי\\server\\DAL\\DAL.csproj",
+        "projectPath": "D:\\Users\\The user\\Desktop\\npm start\\server\\DAL\\DAL.csproj",
         "packagesPath": "C:\\Users\\The user\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\The user\\Documents\\מסלול\\פרויקט עצמאי\\server\\DAL\\obj\\",
+        "outputPath": "D:\\Users\\The user\\Desktop\\npm start\\server\\DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -92,13 +97,17 @@
       }
     },
     "C:\\Users\\The user\\Documents\\מסלול\\פרויקט עצמאי\\server\\DTO\\DTO.csproj": {
+    "D:\\Users\\The user\\Desktop\\npm start\\server\\DTO\\DTO.csproj": {
       "version": "1.0.0",
       "restore": {
         "projectUniqueName": "C:\\Users\\The user\\Documents\\מסלול\\פרויקט עצמאי\\server\\DTO\\DTO.csproj",
+        "projectUniqueName": "D:\\Users\\The user\\Desktop\\npm start\\server\\DTO\\DTO.csproj",
         "projectName": "DTO",
         "projectPath": "C:\\Users\\The user\\Documents\\מסלול\\פרויקט עצמאי\\server\\DTO\\DTO.csproj",
+        "projectPath": "D:\\Users\\The user\\Desktop\\npm start\\server\\DTO\\DTO.csproj",
         "packagesPath": "C:\\Users\\The user\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\The user\\Documents\\מסלול\\פרויקט עצמאי\\server\\DTO\\obj\\",
+        "outputPath": "D:\\Users\\The user\\Desktop\\npm start\\server\\DTO\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -122,6 +131,8 @@
             "projectReferences": {
               "C:\\Users\\The user\\Documents\\מסלול\\פרויקט עצמאי\\server\\DAL\\DAL.csproj": {
                 "projectPath": "C:\\Users\\The user\\Documents\\מסלול\\פרויקט עצמאי\\server\\DAL\\DAL.csproj"
+              "D:\\Users\\The user\\Desktop\\npm start\\server\\DAL\\DAL.csproj": {
+                "projectPath": "D:\\Users\\The user\\Desktop\\npm start\\server\\DAL\\DAL.csproj"
               }
             }
           }
