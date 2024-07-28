@@ -21,8 +21,12 @@ namespace BLL.Services
         public SubjectService(ISubjectRepository SubjectRepository, IMapper mapper, ILogger<string> logger)
         {
             this.SubjectRepository = SubjectRepository;
-            this.mapper = mapper;
             this.logger = logger;
+            var config = new MapperConfiguration(cfg =>
+            {
+                cfg.AddProfile<DTO.classes.Mapper>();
+            });
+            this.mapper = config.CreateMapper();
         }
 
         public async Task<SubjectDto> AddNewSubjectAsync(SubjectDto e)

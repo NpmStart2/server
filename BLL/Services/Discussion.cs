@@ -21,8 +21,12 @@ namespace BLL.Services
         public DiscussionService(IDiscussionRepository DiscussionRepository, IMapper mapper, ILogger<string> logger)
         {
             this.DiscussionRepository = DiscussionRepository;
-            this.mapper = mapper;
             this.logger = logger;
+            var config = new MapperConfiguration(cfg =>
+            {
+                cfg.AddProfile<DTO.classes.Mapper>();
+            });
+            this.mapper = config.CreateMapper();
         }
 
         public async Task<DiscussionDto> AddNewDiscussionAsync(DiscussionDto e)

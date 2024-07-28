@@ -4,12 +4,14 @@ using BLL.Services;
 using DAL.Interfaces;
 using DAL.Models;
 using DAL.Repositories;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 //builder.Services.AddScoped<ICommentRepository, CommentRepository>();
 //builder.Services.AddScoped<ICommentService, CommentService>();
+//builder.Services.AddDbContext<MyDbContext>(options => options.UseSqlServer("Server=.;Database=npm;TrustServerCertificate=True;Trusted_Connection=True;"));
 
 
 builder.Services.AddTransient<ICommentRepository, CommentRepository>();
@@ -49,11 +51,20 @@ builder.Services.AddCors(options =>
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
+//if (app.Environment.IsDevelopment())
+//{
     app.UseSwagger();
     app.UseSwaggerUI();
-}
+//}
+
+app.UseCors(builder =>
+{
+    builder
+    .AllowAnyOrigin()
+    .AllowAnyHeader()
+    .AllowAnyMethod();
+    ;
+});
 
 app.UseCors(builder =>
 {
@@ -69,5 +80,7 @@ app.UseHttpsRedirection();
 app.UseAuthorization();
 
 app.MapControllers();
+
+app.MapGet("/", () => "server is running");
 
 app.Run();
