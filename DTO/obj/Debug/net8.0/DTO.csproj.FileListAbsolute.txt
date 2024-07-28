@@ -45,3 +45,12 @@ D:\Users\The user\Desktop\npm start\הורדת שרת\server\DTO\obj\Debug\net8.
 D:\Users\The user\Desktop\npm start\הורדת שרת\server\DTO\obj\Debug\net8.0\refint\DTO.dll
 D:\Users\The user\Desktop\npm start\הורדת שרת\server\DTO\obj\Debug\net8.0\DTO.pdb
 D:\Users\The user\Desktop\npm start\הורדת שרת\server\DTO\obj\Debug\net8.0\ref\DTO.dll
+D:\Users\The user\Desktop\npm start\server\DTO\obj\Debug\net8.0\DTO.csproj.AssemblyReference.cache
+D:\Users\The user\Desktop\npm start\server\DTO\obj\Debug\net8.0\DTO.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\The user\Desktop\npm start\server\DTO\obj\Debug\net8.0\DTO.AssemblyInfoInputs.cache
+D:\Users\The user\Desktop\npm start\server\DTO\obj\Debug\net8.0\DTO.AssemblyInfo.cs
+D:\Users\The user\Desktop\npm start\server\DTO\obj\Debug\net8.0\DTO.csproj.CoreCompileInputs.cache
+D:\Users\The user\Desktop\npm start\server\DTO\obj\Debug\net8.0\DTO.sourcelink.json
+D:\Users\The user\Desktop\npm start\server\DTO\obj\Debug\net8.0\DTO.dll
+D:\Users\The user\Desktop\npm start\server\DTO\obj\Debug\net8.0\refint\DTO.dll
+D:\Users\The user\Desktop\npm start\server\DTO\obj\Debug\net8.0\DTO.pdb
