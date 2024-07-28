@@ -64,6 +64,15 @@ app.UseCors(builder =>
     ;
 });
 
+app.UseCors(builder =>
+{
+    builder
+    .AllowAnyOrigin()
+    .AllowAnyHeader()
+    .AllowAnyMethod();
+    ;
+});
+
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
