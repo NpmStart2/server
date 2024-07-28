@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "wamnkRE464VxDszjtHAf6DOGBJEjE3KUpt3CGGsnXONqx0564JjTJrMMbO8K9UWBwccK7SPO6hnLK3c0WqVLeQ==",
+  "dgSpecHash": "IqkV88159+U=",
   "success": true,
   "projectFilePath": "D:\\Users\\The user\\Desktop\\npm start\\server\\WebApi\\WebApi.csproj",
   "expectedPackageFiles": [
@@ -40,6 +40,7 @@
     "C:\\Users\\The user\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\The user\\.nuget\\packages\\microsoft.sqlserver.server\\1.0.0\\microsoft.sqlserver.server.1.0.0.nupkg.sha512",
     "C:\\Users\\The user\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.6\\microsoft.visualstudio.azure.containers.tools.targets.1.19.6.nupkg.sha512",
+    "C:\\Users\\The user\\.nuget\\packages\\mysqlconnector\\2.3.7\\mysqlconnector.2.3.7.nupkg.sha512",
     "C:\\Users\\The user\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
     "C:\\Users\\The user\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
     "C:\\Users\\The user\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
