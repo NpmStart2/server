@@ -21,8 +21,12 @@ namespace BLL.Services
         public CommentService(ICommentRepository CommentRepository, IMapper mapper, ILogger<string> logger)
         {
             this.CommentRepository = CommentRepository;
-            this.mapper = mapper;
             this.logger = logger;
+            var config = new MapperConfiguration(cfg =>
+            {
+                cfg.AddProfile<DTO.classes.Mapper>();
+            });
+            this.mapper = config.CreateMapper();
         }
 
         public async Task<CommentDto> AddNewCommentAsync(CommentDto e)

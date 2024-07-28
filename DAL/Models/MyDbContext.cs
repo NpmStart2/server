@@ -18,7 +18,7 @@ namespace DAL.Models
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server=Dvora-Shechter\\SQLEXPRESS;Database=npm;Trusted_Connection=True; TrustServerCertificate=True");
+            optionsBuilder.UseSqlServer("Server=DESKTOP-E0FAPSB\\SQLEXPRESS;Database=npm;Trusted_Connection=True; TrustServerCertificate=True");
         }
     }
 }
