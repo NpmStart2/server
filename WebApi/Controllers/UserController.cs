@@ -48,6 +48,19 @@ namespace WebApi.Controllers
             }
         }
 
+        [HttpGet("{email}/{password}")]
+        public async Task<UserDto> GetByEmailAndPassword(string email, string password)
+        {
+            try
+            {
+                return await UserService.GetByEmailAndByPasswordAsync(email, password);
+            }
+            catch (Exception ex)
+            {
+                logger.LogError($"fail to get User with this id {ex.Message}");
+                return null;
+            }
+        }
         // POST api/<ValuesController>
         [HttpPost]
         public async Task Add(UserDto newUser)

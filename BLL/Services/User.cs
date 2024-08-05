@@ -91,6 +91,21 @@ namespace BLL.Services
             }
         }
 
+        public async Task<UserDto> GetByEmailAndByPasswordAsync(string email, string password)
+        {
+            try
+            {
+                var answer = await UserRepository.GetByEmailAndByPasswordAsync(email, password);
+                return mapper.Map<UserDto>(answer);
+            }
+            catch (Exception ex)
+            {
+                logger.LogError("faild to get User in the service" + ex.Message);
+                //TODO: handele exception
+                throw ex;
+            }
+        }
+
         public async Task<UserDto> UpdateAsync(UserDto e)
         {
             try

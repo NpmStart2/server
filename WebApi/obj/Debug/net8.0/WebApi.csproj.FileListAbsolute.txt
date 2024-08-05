@@ -358,3 +358,4 @@ D:\Users\The user\Desktop\npm start\server\WebApi\obj\Debug\net8.0\refint\WebApi
 D:\Users\The user\Desktop\npm start\server\WebApi\obj\Debug\net8.0\WebApi.pdb
 D:\Users\The user\Desktop\npm start\server\WebApi\obj\Debug\net8.0\WebApi.genruntimeconfig.cache
 D:\Users\The user\Desktop\npm start\server\WebApi\obj\Debug\net8.0\ref\WebApi.dll
+C:\Users\The user\Documents\מסלול\פרויקט עצמאי\server\WebApi\bin\Debug\net8.0\MySqlConnector.dll

@@ -11,6 +11,7 @@ namespace DAL.Interfaces
     {
         Task<List<User>> GetAllAsync();
         Task<User> GetByIdAsync(int id);
+        Task<User> GetByEmailAndByPasswordAsync(string email, string password);
         Task<User> UpdateAsync(User entity);
         Task<User> AddAsync(User entity);
         Task DeleteAsync(int id);

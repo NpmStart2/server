@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IqkV88159+U=",
+  "dgSpecHash": "TEaNiwbZKtQ=",
   "success": true,
-  "projectFilePath": "D:\\Users\\The user\\Desktop\\npm start\\server\\WebApi\\WebApi.csproj",
+  "projectFilePath": "C:\\Users\\The user\\Documents\\מסלול\\פרויקט עצמאי\\server\\WebApi\\WebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\The user\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\The user\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

@@ -27,54 +27,6 @@ namespace DAL.Repositories
             try
             {
                 var newEntity = await context.Users.AddAsync(entity);
-                // השורה הזאת מביאה את השגיאה הבאה:
-                    // Microsoft.EntityFrameworkCore.DbUpdateException
-                    //  HResult=0x80131500
-                    //  Message=An error occurred while saving the entity changes. See the inner exception for details.
-                    //  Source=Microsoft.EntityFrameworkCore.Relational
-                    //  StackTrace:
-                    //   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.<ExecuteAsync>d__50.MoveNext()
-                    //   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.<ExecuteAsync>d__15.MoveNext()
-                    //   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.<ExecuteAsync>d__9.MoveNext()
-                    //   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.<ExecuteAsync>d__9.MoveNext()
-                    //   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.<ExecuteAsync>d__9.MoveNext()
-                    //   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.<SaveChangesAsync>d__8.MoveNext()
-                    //   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<SaveChangesAsync>d__111.MoveNext()
-                    //   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<SaveChangesAsync>d__115.MoveNext()
-                    //   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.<ExecuteAsync>d__7`2.MoveNext()
-                    //   at Microsoft.EntityFrameworkCore.DbContext.<SaveChangesAsync>d__63.MoveNext()
-                    //   at Microsoft.EntityFrameworkCore.DbContext.<SaveChangesAsync>d__63.MoveNext()
-                    //   at DAL.Repositories.UserRepository.<AddAsync>d__4.MoveNext() in C:\Users\The user\Documents\מסלול\פרויקט עצמאי\server\DAL\Repositories\User.cs:line 30
-
-                    //  This exception was originally thrown at this call stack:
-                    //    [External Code]
-
-                    //Inner Exception 1:
-                    //SqlException: Invalid object name 'Users'.
-                    //Microsoft.EntityFrameworkCore.DbUpdateException
-                    //  HResult=0x80131500
-                    //  Message=An error occurred while saving the entity changes. See the inner exception for details.
-                    //  Source=Microsoft.EntityFrameworkCore.Relational
-                    //  StackTrace:
-                    //   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.<ExecuteAsync>d__50.MoveNext()
-                    //   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.<ExecuteAsync>d__15.MoveNext()
-                    //   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.<ExecuteAsync>d__9.MoveNext()
-                    //   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.<ExecuteAsync>d__9.MoveNext()
-                    //   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.<ExecuteAsync>d__9.MoveNext()
-                    //   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.<SaveChangesAsync>d__8.MoveNext()
-                    //   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<SaveChangesAsync>d__111.MoveNext()
-                    //   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<SaveChangesAsync>d__115.MoveNext()
-                    //   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.<ExecuteAsync>d__7`2.MoveNext()
-                    //   at Microsoft.EntityFrameworkCore.DbContext.<SaveChangesAsync>d__63.MoveNext()
-                    //   at Microsoft.EntityFrameworkCore.DbContext.<SaveChangesAsync>d__63.MoveNext()
-                    //   at DAL.Repositories.UserRepository.<AddAsync>d__4.MoveNext() in C:\Users\The user\Documents\מסלול\פרויקט עצמאי\server\DAL\Repositories\User.cs:line 30
-
-                    //  This exception was originally thrown at this call stack:
-                    //    [External Code]
-
-                    //Inner Exception 1:
-                    //SqlException: Invalid object name 'Users'.
-
                 await context.SaveChangesAsync();
                 return newEntity.Entity;
             }
@@ -120,6 +72,27 @@ namespace DAL.Repositories
             try
             {
                 var entity = await context.Users.FirstOrDefaultAsync(p => p.Id == Id);
+                if (entity == null)
+                {
+                    logger.LogError("The User is null");
+                    //return new User();
+                    return null;
+                }
+                return entity;
+            }
+            catch (Exception ex)
+            {
+                logger.LogError("failed to get User" + ex.Message.ToString());
+                //return new User();
+                return null;
+            }
+        }
+
+        public async Task<User> GetByEmailAndByPasswordAsync(string email, string password)
+        {
+            try
+            {
+                var entity = await context.Users.FirstOrDefaultAsync(p => p.Email == email && p.Password == password);
                 if (entity == null)
                 {
                     logger.LogError("The User is null");
