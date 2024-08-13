@@ -3011,11 +3011,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\The user\\Documents\\מסלול\\פרויקט עצמאי\\server\\WebApi\\WebApi.csproj",
+      "projectUniqueName": "D:\\Users\\The user\\Desktop\\npm start\\server\\WebApi\\WebApi.csproj",
       "projectName": "WebApi",
-      "projectPath": "C:\\Users\\The user\\Documents\\מסלול\\פרויקט עצמאי\\server\\WebApi\\WebApi.csproj",
+      "projectPath": "D:\\Users\\The user\\Desktop\\npm start\\server\\WebApi\\WebApi.csproj",
       "packagesPath": "C:\\Users\\The user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\The user\\Documents\\מסלול\\פרויקט עצמאי\\server\\WebApi\\obj\\",
+      "outputPath": "D:\\Users\\The user\\Desktop\\npm start\\server\\WebApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -3037,8 +3037,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\The user\\Documents\\מסלול\\פרויקט עצמאי\\server\\BLL\\BLL.csproj": {
-              "projectPath": "C:\\Users\\The user\\Documents\\מסלול\\פרויקט עצמאי\\server\\BLL\\BLL.csproj"
+            "D:\\Users\\The user\\Desktop\\npm start\\server\\BLL\\BLL.csproj": {
+              "projectPath": "D:\\Users\\The user\\Desktop\\npm start\\server\\BLL\\BLL.csproj"
             }
           }
         }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nyn3OBu/aww=",
+  "dgSpecHash": "B0buadxqGe4=",
   "success": true,
-  "projectFilePath": "C:\\Users\\The user\\Documents\\מסלול\\פרויקט עצמאי\\server\\DAL\\DAL.csproj",
+  "projectFilePath": "D:\\Users\\The user\\Desktop\\npm start\\server\\DAL\\DAL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\The user\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\The user\\.nuget\\packages\\azure.identity\\1.11.3\\azure.identity.1.11.3.nupkg.sha512",
