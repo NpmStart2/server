@@ -96,4 +96,3 @@ app.MapControllers();
 app.MapGet("/", () => "server is running, connection:"+Environment.GetEnvironmentVariable("DB_CONNECTION"));
 
 app.Run();
- 

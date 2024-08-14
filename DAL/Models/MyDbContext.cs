@@ -31,7 +31,9 @@ namespace DAL.Models
                 throw new InvalidOperationException("Connection string not found in environment variables.");
             }
 
-            optionsBuilder.UseSqlServer(connection);
+
+            optionsBuilder.UseMySql(connection, new MySqlServerVersion(new Version(8, 0, 35)));
+            //optionsBuilder.UseSqlServer(connection);
         }
     }
 }
