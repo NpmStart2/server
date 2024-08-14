@@ -228,3 +228,6 @@ AppPackages/
 #####
 # End of core ignore list, below put you custom 'per project' settings (patterns or path)
 #####
+/BLL/bin/Debug/net8.0/BLL.dll
+/BLL/bin/Debug/net8.0/DTO.pdb
+/BLL/obj/Debug/net8.0/BLL.dll
