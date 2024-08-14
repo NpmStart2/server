@@ -58,7 +58,8 @@ namespace DAL.Repositories
             catch (Exception ex)
             {
                 logger.LogError("failed to get Subjects" + ex.Message.ToString());
-                return new List<Subject>();
+                //return new List<Subject>();
+                throw new Exception("failed in dal.subject "+ex.Message.ToString());
             }
         }
 

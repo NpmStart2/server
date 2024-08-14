@@ -6,6 +6,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Xml;
+using dotenv.net;
+
 
 namespace DAL.Models
 {
@@ -16,9 +18,20 @@ namespace DAL.Models
         public DbSet<Subject> Subjects { get; set; }
         public DbSet<User> Users { get; set; }
 
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-            optionsBuilder.UseSqlServer("Server=DESKTOP-E0FAPSB\\SQLEXPRESS;Database=npm;Trusted_Connection=True; TrustServerCertificate=True");
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) {
+
+            //DotEnv.Load(options: new DotEnvOptions(envFilePaths: ["../../.env.local"]));
+
+            
+            string connection = Environment.GetEnvironmentVariable("DB_CONNECTION");
+
+            // בדיקה אם משתנה הסביבה נטען כראוי
+            if (string.IsNullOrEmpty(connection))
+            {
+                throw new InvalidOperationException("Connection string not found in environment variables.");
+            }
+
+            optionsBuilder.UseSqlServer(connection);
         }
     }
 }

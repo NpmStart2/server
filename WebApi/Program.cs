@@ -4,6 +4,7 @@ using BLL.Services;
 using DAL.Interfaces;
 using DAL.Models;
 using DAL.Repositories;
+using dotenv.net;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -49,11 +50,21 @@ builder.Services.AddCors(options =>
 
 
 var app = builder.Build();
+string env = "";
+// קביעת הסביבה הנוכחית, ברירת המחדל היא 'development'
+if (app.Environment.IsDevelopment())
+    env = "local";
+else
+    env = "remote";
+string envFile = $"../.env.{env}"; 
+
+// טעינת קובץ ה-.env המתאים
+DotEnv.Load(options: new DotEnvOptions(envFilePaths: [envFile])); 
 
 // Configure the HTTP request pipeline.
 //if (app.Environment.IsDevelopment())
 //{
-    app.UseSwagger();
+app.UseSwagger();
     app.UseSwaggerUI();
 //}
 
@@ -79,8 +90,10 @@ app.UseHttpsRedirection();
 
 app.UseAuthorization();
 
+
 app.MapControllers();
 
-app.MapGet("/", () => "server is running");
+app.MapGet("/", () => "server is running, connection:"+Environment.GetEnvironmentVariable("DB_CONNECTION"));
 
 app.Run();
+ 

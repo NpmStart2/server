@@ -54,3 +54,10 @@ D:\Users\The user\Desktop\npm start\server\DTO\obj\Debug\net8.0\DTO.sourcelink.j
 D:\Users\The user\Desktop\npm start\server\DTO\obj\Debug\net8.0\DTO.dll
 D:\Users\The user\Desktop\npm start\server\DTO\obj\Debug\net8.0\refint\DTO.dll
 D:\Users\The user\Desktop\npm start\server\DTO\obj\Debug\net8.0\DTO.pdb
+D:\Users\The user\Desktop\npm start\server\DTO\bin\Debug\net8.0\DTO.deps.json
+D:\Users\The user\Desktop\npm start\server\DTO\bin\Debug\net8.0\DTO.dll
+D:\Users\The user\Desktop\npm start\server\DTO\bin\Debug\net8.0\DTO.pdb
+D:\Users\The user\Desktop\npm start\server\DTO\bin\Debug\net8.0\DAL.dll
+D:\Users\The user\Desktop\npm start\server\DTO\bin\Debug\net8.0\DAL.pdb
+D:\Users\The user\Desktop\npm start\server\DTO\obj\Debug\net8.0\DTO.csproj.Up2Date
+D:\Users\The user\Desktop\npm start\server\DTO\obj\Debug\net8.0\ref\DTO.dll
